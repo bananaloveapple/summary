@@ -1,0 +1,28 @@
+/**
+*属于违反了并发原则的有序性
+*
+/
+
+//线程1
+context = doThing1(); 
+flag = false;
+//线程2
+while(!flag)
+{
+
+}
+doThing2(context);
+
+//违反了可见性
+//线程1
+flag = false;
+
+sleep(1);
+
+while(flag)
+{
+    doSpeek();
+}
+
+//线程2
+flag = true;
