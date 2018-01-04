@@ -1,0 +1,9 @@
+1.hibernate的cascade,和inverse的控制权的关系是交给由谁来进行控制的，
+
+2.Myeclipse得反向工程
+
+3.svn的使用，尤其是异常那里
+
+4.日志系统
+
+5.hibernate主键的生成策略
